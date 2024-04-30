@@ -47,7 +47,7 @@ function Navbar() {
             <ul>
                 <li>
                     <Link onClick={closeMenu}
-                    activeClass="navBAr--active-content"
+                    activeClass="navbar--active-content"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -58,7 +58,7 @@ function Navbar() {
                 </li>
                 <li>
                     <Link onClick={closeMenu}
-                    activeClass="navBAr--active-content"
+                    activeClass="navbar--active-content"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -69,7 +69,7 @@ function Navbar() {
                 </li>
                 <li>
                     <Link onClick={closeMenu}
-                    activeClass="navBAr--active-content"
+                    activeClass="navbar--active-content"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -80,17 +80,29 @@ function Navbar() {
                 </li>
                 <li>
                     <Link onClick={closeMenu}
-                    activeClass="navBAr--active-content"
+                    activeClass="navbar--active-content"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    to="heroSection"
+                    to="Testimonials"
                     className="navbar--content"
-                    >Contact</Link>
+                    >Testimonials</Link>
                 </li>
             </ul>
         </div>
+        <Link     
+            
+                    onClick={closeMenu}
+                    activeClass="navbar--active-content"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    to="Contact"
+                    className="btn btn-outline-primary"
+        >
+                Contact Me</Link>
        </nav>
     )
 }
