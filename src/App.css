@@ -19,13 +19,14 @@ p {
 }
 
 :root {
-    --primary: #5e3bee;
+    --primary: #154b55;
     --heading-color:#282938;
     --bg-shade: #a6b3a5;
     --github: #e62872;
     --darkblue: #1c1e53;
     --black: #000000;
     --white: #ffffff;
+    --navcolor: #619c3a;
 }
 
 .btn {
@@ -177,7 +178,7 @@ h2 {
 
 /* Section Titles Ends */
 
-/* NAvbar style Start */
+/* Navbar style Start */
 
 .navbar {
     display: flex;
@@ -190,10 +191,35 @@ h2 {
     top: 0;
     left: 0;
     right: 0;
+}
 
+.navbar--items > ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 42.667px;
+    text-decoration: none;
 
 }
 
+.navbar--items > ul > li > a {
+    text-decoration: none;
+}
+
+/* navbar content */
+
+.navbar--content {
+    color: var(--darkblue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.navbar--active-content {
+    color: var(--navcolor);
+}
 /* Hero Section Style */ 
 .hero--section {
     display: grid;
