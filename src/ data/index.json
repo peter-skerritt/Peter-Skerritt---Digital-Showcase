@@ -1,0 +1,32 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./img/product-chain-1.png",
+            "title": "Front-End",
+            "description": "Lorem Ipsum dolor sit amet, consectetur adipi adipicing elit. consectetur adipi adipicing elit. consectetur adipi adipicing elit."
+
+        },
+        {
+            "id": "2",
+            "src": "./img/tag-1.png",
+            "title": "Backend-End",
+            "description": "Lorem Ipsum dolor sit amet, consectetur adipi adipicing elit. consectetur adipi adipicing elit. consectetur adipi adipicing elit."
+
+        },
+        {
+            "id": "3",
+            "src": "./img/feather-pen-2.png",
+            "title": "UI & UX Design",
+            "description": "Lorem Ipsum dolor sit amet, consectetur adipi adipicing elit. consectetur adipi adipicing elit. consectetur adipi adipicing elit."
+
+        },
+        {
+            "id": "4",
+            "src": "./img/feather-pen-1.png",
+            "title": "Front-End",
+            "description": "Lorem Ipsum dolor sit amet, consectetur adipi adipicing elit. consectetur adipi adipicing elit. consectetur adipi adipicing elit."
+
+        }
+    ]
+}

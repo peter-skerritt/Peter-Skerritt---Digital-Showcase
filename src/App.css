@@ -21,12 +21,12 @@ p {
 :root {
     --primary: #154b55;
     --heading-color:#282938;
-    --bg-shade: #a6b3a5;
+    --bg-shade: #ebf5ff;
     --github: #e62872;
     --darkblue: #1c1e53;
     --black: #000000;
     --white: #ffffff;
-    --navcolor: #619c3a;
+    --navcolor: #396597;
 }
 
 .btn {
@@ -218,8 +218,11 @@ h2 {
 }
 
 .navbar--active-content {
-    color: var(--navcolor);
+    color: var(--primary);
 }
+
+/* Nav Style Ends */
+
 /* Hero Section Style */ 
 .hero--section {
     display: grid;
