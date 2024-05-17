@@ -19,7 +19,7 @@ p {
 }
 
 :root {
-    --primary: #627a4b;
+    --primary: #323f37;
     --heading-color:#282938;
     --bg-shade: #b7c0b4;
     --github: #e62872;
@@ -205,7 +205,7 @@ h2 {
   /* Navbar Content */
   .navbar--content {
     color: var(--darkblue);
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -366,7 +366,7 @@ h2 {
 
 .about--section {
     display: grid;
-    padding: 133.3px 85.3;
+    padding: 133.3px 85.3px;
     align-items: center;
     gap: 114.6px;
     grid-template-columns: repeat(2, 1fr);
@@ -377,3 +377,5 @@ h2 {
     height: 100%;
     padding-left: 114.3px;
 }
+
+/* My Portfolio Starts */
