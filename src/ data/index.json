@@ -28,5 +28,30 @@
             "description": "Lorem Ipsum dolor sit amet, consectetur adipi adipicing elit. consectetur adipi adipicing elit. consectetur adipi adipicing elit."
 
         }
+    ],
+
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/placeholder-image.png",
+            "title": "Project 1",
+            "description": "Lorem Ipsum dolor sit amet, consectetur adipi adipicing elit. consectetur adipi adipicing elit. consectetur adipi adipicing elit.",
+            "link": "View"
+
+        },
+        {
+            "id": "2",
+            "src": "./img/placeholder-image-1.png",
+            "title": "Project 2",
+            "description": "Lorem Ipsum dolor sit amet, consectetur adipi adipicing elit. consectetur adipi adipicing elit. consectetur adipi adipicing elit.",
+            "link": "View"
+        },
+        {
+            "id": "3",
+            "src": "./img/placeholder-image-2.png",
+            "title": "Project 3",
+            "description": "Lorem Ipsum dolor sit amet, consectetur adipi adipicing elit. consectetur adipi adipicing elit. consectetur adipi adipicing elit.",
+            "link": "View"
+        }
     ]
 }
